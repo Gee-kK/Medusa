@@ -46,11 +46,13 @@ while True:
     
     counter = counter + 1
     print(req.text)
-    print('reported ' + counter + 'times')
+    print('reported ', counter ,' times')
 
-    if req.status_code == 0:
-        print("reported a total of " + counter + "times")
-        break
+    # if req.status_msg == "This account has been suspended, thanks for reporting.":
+    #     print("reported a total of " + counter + "times")
+
+    #     x = input("Press ENTER to exit")
+    #     break
 
     time.sleep(10)
 
