@@ -11,6 +11,7 @@ Feel free to use the code in this project if u think there are some upgrades tha
 
 # Upgrades
 [ ] Stop reporting after account suspended.
+
 [x] Amount of times reported.
 
 
